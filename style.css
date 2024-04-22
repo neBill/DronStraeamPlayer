@@ -42,9 +42,16 @@ p{
   font-size: 36px;
   font-weight: bold;
   color: #656c75;
+  -webkit-user-select: none;
+  user-select: none;
   
 }
 
+button {
+
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 .songs_container {  
 
@@ -114,6 +121,9 @@ p{
   border-width:0.5px;
   border-radius: 50%;
   -webkit-tap-highlight-color: rgba(167, 169, 170, 0);  
+  -webkit-user-select: none;
+  user-select: none;
+
 
 }
 
@@ -220,6 +230,8 @@ p{
   font-size: 2.6em;
   /* font-weight: bold; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 /* =================================================================*/
